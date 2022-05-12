@@ -19,6 +19,12 @@ h1 {
     gap: 5px;
     text-align: left;
 }
+
+h2 {
+    text-align: center;
+    color: #cc7000;
+}
+
 a {
     color: grey;
     transition: all .6s ;
