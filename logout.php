@@ -1,4 +1,9 @@
 <?php
 
-echo"apaguei tudo"
+    session_start();
+    $_SESSION = array();
+    session_destroy();
+
+    header("Location: login.html");
+    
 ?>
