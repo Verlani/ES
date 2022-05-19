@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+main{
+    background-color: #311100;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 1s;
+}
+.menu:hover{
+    background-color: rgb(255, 255, 255);
+}
+.menu:hover h1{
+    color: #333;
+}
+.menu:hover a{
+    color: #333;
+}
+.logo{
+    margin: 10px 8%;
+    font-size: 20px;
+}
+nav{
+    margin: 10px 8%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0% 3%;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.conteudo{
+    margin: 4.5% 0% 0% 10%;
+}
+.conteudo h1{
+    font-size: 100px;
+    line-height: 120px;
+    opacity: 0;
+}
+.conteudo p{
+    max-width: 320px;
+    margin-top: 30px;
+    opacity: 0;
+}
+.links{
+    margin-top: 30px;
+    opacity: 0;
+}
+.links a{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.anim{
+    animation: animação 1s linear forwards;
+}
+
+@keyframes animação{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+        color:red;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+h1.anim {
+    animation-delay: 0.3s;
+}
+p.anim{
+    animation-delay: 0.5s;
+}
+.links.anim{
+    animation-delay: 0.8s;
+}
+
+@media(max-width: 450px) {
+    .logo {
+      font-size: 10px;
+    }
+    .conteudo h1{
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .conteudo{
+        margin: 50% 0% 0% 10%;
+    }
+    .links{
+    margin-top: 10%;
+    }
+}

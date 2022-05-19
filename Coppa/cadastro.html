@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" href="img/books.png">
+     <title>Cadastro</title>
+</head>
+<body>
+
+    <main>
+        <div class="menu">
+            <div class="logo">
+                <h1>Biblioteca</h1>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="login.html">Login</a>
+            </nav>
+        </div>
+
+        <div class="conteudo">
+            <form method="post" action="cadastro.php">
+                <div class="cadastro">
+                    <h1 class="titulo mover">LOGIN</h1>
+                    <div class="inserir">
+                        <div class="nome inse mover">
+                            <p>Nome</p>
+                            <label><input class="bnt" type="text" name="nome" placeholder="  Insira seu nome" required> </label> 
+                        </div>
+
+                        <div class="email inse mover">
+                            <p>Email</p>
+                            <label><input class="bnt" type="email" name="email" placeholder="  Exemplo@gmail.com" required> </label> 
+                        </div>
+
+                        <div class="senha inse mover">
+                            <p>Senha</p>
+                            <label><input class="bnt" type="password" name="senha" placeholder="  Insira uma senha" required> </label> 
+                        </div>
+
+                        <div class="confsenha inse mover">
+                            <p>Confirme sua senha</p>
+                            <label><input class="bnt" type="password" name="confsenha" placeholder="  Confirme sua senha" required> </label> 
+                        </div>
+
+                        <div class="inse submit mover">
+                            <label><input class="botao" type="submit" name="cadastrar" value="Cadastrar"></label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

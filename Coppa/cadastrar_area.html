@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastros.css">
+    <title>Cadastro de Areas</title>
+
+</head>
+<body>
+ 
+    <main>
+        <div class="menu">
+            <div class="logo">
+                    <h1>Biblioteca</h1>
+            </div>
+            <nav>
+                <a href="biblioteca.html">Voltar</a>
+                <a href="cadastrar_aluno.html">Cadastrar alunos</a>
+                <a href="cadastrar_livros.php">Cadastrar livros</a>
+                <a href="listar_livros.php">Listar livros</a>
+                <a href="deslogar.php">Sair</a>
+            </nav>
+        </div>
+
+        <div class="conteudo">
+        <form name="cadastro_area" action="cadastrar_area.php" method="post">
+                <h2>Cadastro de areas</h2><br>
+                <label>Nome da area: <input type="text" name="area" class="enviar" required><br><br></label>
+                <spam><input type="submit" name="Enviar" value="Enviar" class="enviar">
+                <input type="reset" name="Limpar" value="Limpar" class="enviar"></spam>
+        </form>
+        </div>
+    </main>
+</body>
+</html>
