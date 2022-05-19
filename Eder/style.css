@@ -1,0 +1,236 @@
+body {
+    background-image: url(images/thumb-1920-26102.jpg);
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-image: url(images/pngtree-sand-texture-light-brown-background-image_845151.jpg);
+    border-bottom: 2px solid;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+nav a {
+    display: flex;
+    margin: 0 auto;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    margin: auto;
+    background-color: rgb(65, 65, 65);
+    color: bisque;
+    border-radius: 30px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#sair {
+    background-color: rgb(83, 83, 83);
+    padding: 5px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+/*fim do header*/
+/* Tela de login */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.login fieldset {
+    border: 2px solid;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 25%;
+    padding: 0;
+    margin: 10px;
+    background-color: blanchedalmond;
+}
+
+.login fieldset input {
+    display: block;
+    width: 90%;
+    margin: 0 auto 30px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#botao {
+    background-color: rgb(50, 122, 255);
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 800px;
+    margin: 30px auto;
+    background-color:rgb(145, 87, 0);
+    border-radius: 10px;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+aside h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+.esquerda {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    border-right: 4px solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.esquerda h1 {
+    text-align: center;
+    color: rgb(212, 212, 212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+}
+
+.direita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 500px;
+
+}
+
+.direita li {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(212, 212, 212);
+    list-style: none;
+}
+/*fim do home*/
+
+/*forms*/
+legend {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    padding: 5px;
+}
+.forms {
+    width: 30%;
+    margin: 30px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    background-color: blanchedalmond;
+    border-color: blanchedalmond;
+}
+
+.campos {
+    margin: 5px;
+    width: 800px;
+    border: 2px outset;
+    border-color: rgb(255, 166, 0);
+    padding: 4px;
+    border-radius: 15px;
+}
+
+.botao {
+    background-color: rgb(255, 255, 255);
+    border: 2px outset;
+    border-color: rgb(126, 82, 0);
+    border-radius: 15px;
+    padding: 4px;
+    margin: 5px 20px 0 5px;
+}
+
+/*fim dos forms*/
+/*Lista de livros*/
+
+#titulolista {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: blanchedalmond
+}
+.listadelivros {
+    background-color: blanchedalmond;
+    border: 5px outset;
+    border-color: rgb(126, 82, 0);
+    width: 50%;
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.listadelivros td, th {
+    border: 1px solid;
+}
+
+/*fim da lista de livros*/
+/*tabela de devolução*/
+
+.tablesdevolucao {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 30px auto;
+    background-color: blanchedalmond;
+}
+
+.tabelaesquerda {
+    width: 100%;
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 5px outset;
+    border-color: rgb(126, 82, 0);
+    border-radius: 5px;
+}
+
+.tabeladireita {
+    text-align: center;
+    background-color: blanchedalmond;
+    border: 5px outset;
+    border-color: rgb(126, 82, 0);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.tabeladireita td,th {
+    border: 1px solid;
+}
+
+.tabelaesquerda td,th {
+    border: 1px solid;
+}
